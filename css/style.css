@@ -1,4 +1,4 @@
-/* Base styles: Mobile-first layout */
+/* Base styles: Mobile-first */
 body {
   margin: 0;
   font-family: sans-serif;
@@ -42,7 +42,7 @@ img {
   font-weight: bold;
 }
 
-/* Tablet View (min-width: 772px) */
+/* Tablet View @ 772px */
 @media screen and (min-width: 772px) {
   main {
     grid-template-columns: repeat(2, 1fr);
@@ -57,7 +57,7 @@ img {
   }
 }
 
-/* Large Screen View (min-width: 992px) */
+/* Large Screen View @ 992px */
 @media screen and (min-width: 992px) {
   main div:nth-child(3n) {
     grid-column: span 2;
@@ -75,11 +75,11 @@ img {
   }
 }
 
-/* Dark Mode Color Scheme */
+/* Dark Color Scheme */
 @media (prefers-color-scheme: dark) {
   main div {
     background-color: #222;
-    color: #f0e68c;
+    color: #f0e68c; /* soft yellow tone */
     border: 1px solid black;
   }
 }
