@@ -52,9 +52,6 @@ img {
     border-radius: 50%;
   }
 
-  main div:last-child {
-    grid-column: span 2;
-  }
 }
 
 /* Large Screen View @ 992px */
